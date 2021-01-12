@@ -11,6 +11,7 @@
 
 import 'package:flutter/material.dart';
 import 'adherence_page.dart';
+import 'module_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -41,10 +42,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Index 0: Modules',
-      style: optionStyle,
-    ),
+    ModulePage(),
     AdherencePage(),
   ];
 
