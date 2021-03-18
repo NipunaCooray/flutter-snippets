@@ -1,1 +1,1 @@
-# 100-Days-Of-Flutter
+# FLutter snippets
